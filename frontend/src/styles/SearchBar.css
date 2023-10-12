@@ -1,0 +1,18 @@
+/* styles.css */
+.search-container {
+    display: flex;
+    align-items: center;
+    font-family: inter;
+    
+  }
+  
+  .search-bar {
+    background-color: rgb(229, 229, 229);
+    color: rgb(42, 42, 42);
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    border-color: transparent;
+  }
+  

@@ -1,0 +1,13 @@
+.navBar{
+    background-color: #9ed5ff;
+    height: 60px;
+    width: 100%;
+    
+    top: 0;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: 0 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}

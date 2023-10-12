@@ -1,0 +1,47 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #f6d365;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1))
+  }
+
+.profile-container{
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-around;
+  align-items: flex-start;
+  min-width: 1000px;
+}
+
+
+.mdb-row{
+    width: 80%;
+}
+
+
+.edit-profile-btn{
+   
+    background-color: #934caf;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: -12px;
+    margin-right: 10px;
+    
+    margin-bottom: 5px;
+    
+  }
+  .edit-profile-btnn:hover {
+    background-color: #56285a;
+  }
+
+  .h-r{
+    margin-top: 50px;
+  }

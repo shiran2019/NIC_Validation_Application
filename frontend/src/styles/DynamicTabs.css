@@ -1,0 +1,94 @@
+/* DynamicTabs.css */
+
+/* Style the container for the tabs */
+.mb-3 {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  }
+  
+  /* Style the tab buttons */
+  .nav-link {
+    color: #333;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Style the logout and register buttons */
+  .logout-button {
+    margin-top: 10px;
+    background-color: #d9534f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background-color: #c9302c;
+  }
+  
+  /* Style the grid container */
+  .grid-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  /* Style the chart containers */
+  .pie-container,
+  .bar-container ,
+  
+  /* Add more styles as needed */
+  .chart-div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: stretch;
+    margin-top: 20px;
+    
+  }
+
+  .user-counts{
+   margin-left: 20px;
+   margin-top: 20px;
+  }
+
+
+  .chart-print{
+   
+    background-color: #cc883a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: -8px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    
+  }
+  .chart-print:hover {
+    background-color: #865906;
+  }
